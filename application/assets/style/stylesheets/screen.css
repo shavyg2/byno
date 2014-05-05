@@ -483,18 +483,23 @@ body {
   float: left;
   width: 997.5px;
   margin: 0 1.25px;
+  -webkit-box-shadow: 0 0 30px 0 #cfcfcf;
+  -moz-box-shadow: 0 0 30px 0 #cfcfcf;
+  box-shadow: 0 0 30px 0 #cfcfcf;
+  padding: 5px;
+  overflow-x: hidden;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .main-page {
   background-color: white;
   box-sizing: border-box;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .navigation {
   position: relative;
-  z-index: 5;
+  z-index: 1000;
   display: block;
   background-color: white;
   padding-top: 10px;
@@ -503,7 +508,7 @@ body {
   -moz-box-shadow: 0px 5px 15px #797979;
   box-shadow: 0px 5px 15px #797979;
 }
-/* line 56, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .navigation ul {
   display: block;
   width: 1002.5px;
@@ -520,7 +525,7 @@ body {
 .navigation ul:after {
   clear: both;
 }
-/* line 60, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .navigation ul li {
   text-align: center;
   display: inline;
@@ -528,18 +533,18 @@ body {
   width: 246.875px;
   margin: 0 1.5625px;
 }
-/* line 63, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .navigation ul li a {
   text-decoration: none;
-  color: dodgerblue;
+  color: #0f0f0f;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .banner {
   height: 280px;
   overflow: hidden;
 }
-/* line 78, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .banner .banner-image {
   margin: auto;
   vertical-align: top;
@@ -551,7 +556,7 @@ body {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-/* line 90, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .banner .message {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -569,22 +574,22 @@ body {
   color: white;
   padding: 10px;
 }
-/* line 101, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .banner .message h3 {
   color: white;
 }
-/* line 105, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .banner .message h3, .banner .message p {
   padding: 0;
   margin: 0;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .banner:hover > .message {
   top: -100px;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .area-of-business {
   display: block;
   width: 1002.5px;
@@ -602,7 +607,7 @@ body {
   clear: both;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .item {
   display: inline;
   float: left;
@@ -611,7 +616,7 @@ body {
   height: 180px;
   overflow: hidden;
 }
-/* line 131, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .item .image {
   background-position: 50% 50%;
   background-size: 125% auto;
@@ -626,11 +631,11 @@ body {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 138, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .item .image:hover {
   background-position: 40% 40%;
 }
-/* line 143, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .item h5 {
   position: relative;
   top: 0px;
@@ -646,33 +651,33 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .item:hover > h5 {
   top: -20px;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #industrial {
   background-image: url("/assets/image/industrial-building.jpg");
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #commercial {
   background-image: url("/assets/image/commercial-building.jpg");
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 #residential {
   background-image: url("/assets/image/residential-building.png");
   background-size: auto 125%;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #institution {
   background-image: url("/assets/image/institution-building.jpg");
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .quote-banner {
   display: inline;
   float: left;
@@ -680,7 +685,7 @@ body {
   margin: 0 1.25px;
   margin-top: 10px;
 }
-/* line 180, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .quote-banner .big-quote {
   display: inline;
   float: left;
@@ -688,13 +693,98 @@ body {
   margin: 0 1.25px;
   margin-left: 201.25px;
 }
-/* line 181, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .quote-banner .big-quote:before {
   content: "“";
   font-size: 48;
 }
-/* line 189, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .quote-banner .big-quote:after {
   content: "”";
   font-size: 48;
+}
+
+/* line 203, ../sass/screen.scss */
+#slider {
+  text-align: right;
+}
+/* line 205, ../sass/screen.scss */
+#slider .surface {
+  z-index: 5;
+}
+/* line 211, ../sass/screen.scss */
+#slider .pagination {
+  display: inline;
+}
+/* line 216, ../sass/screen.scss */
+#slider .pagination li {
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  position: relative;
+  z-index: 10;
+  top: -50px;
+  color: #bdbdbd;
+  background-color: #bdbdbd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px 10px;
+  font-size: 0;
+  height: 10px;
+  width: 10px;
+  -webkit-box-shadow: 0 0 0 2px white;
+  -moz-box-shadow: 0 0 0 2px white;
+  box-shadow: 0 0 0 2px white;
+}
+/* line 232, ../sass/screen.scss */
+#slider .pagination .current {
+  background-color: #ff7c15;
+}
+
+/* line 243, ../sass/screen.scss */
+.spacing {
+  position: relative;
+  margin-left: 30px;
+}
+/* line 247, ../sass/screen.scss */
+.spacing li {
+  list-style: circle;
+}
+
+/* line 254, ../sass/screen.scss */
+.service-information {
+  display: block;
+  width: 1005.0px;
+  margin: 0 -2.5px;
+  *zoom: 1;
+}
+/* line 27, ../sass/grid.scss */
+.service-information:before, .service-information:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.service-information:after {
+  clear: both;
+}
+/* line 256, ../sass/screen.scss */
+.service-information .information {
+  display: inline;
+  float: left;
+  width: 395px;
+  margin: 0 2.5px;
+  margin-left: 52.5px;
+  box-sizing: border-box;
+}
+/* line 262, ../sass/screen.scss */
+.service-information .information:nth-of-type(2n) {
+  margin-left: 102.5px;
 }

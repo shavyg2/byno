@@ -31,6 +31,9 @@ body{
 }
 .main-page {
   @include column(100);
+  @include box-shadow(0 0 30px 0 #cfcfcf);
+  padding:5px;
+  overflow-x: hidden;
 }
 
 .main-page{
@@ -46,7 +49,7 @@ body{
 
 .navigation {
   position:relative;
-  z-index: 5;
+  z-index: 1000;
   display: block;
   background-color: white;
   $pd:10px;
@@ -62,7 +65,7 @@ body{
       @include column(20, 80);
       a{
         text-decoration: none;
-        color:dodgerblue;
+        color: #0f0f0f;
       }
     }
   }
@@ -194,3 +197,69 @@ top:-20px;
 }
 
 
+
+///////////Slider
+
+#slider{
+
+  .surface{
+    z-index:5;
+  }
+
+  text-align: right;
+
+  .pagination{
+
+    display:inline;
+
+    $c: #bdbdbd;
+    li{
+      @include transition-duration(1s);
+      @include transition-property(background-color);
+      position:relative;
+      z-index: 10;
+      top:-50px;
+      color:$c;
+      background-color:$c;
+      @include border-radius(5px);
+      margin:5px 10px;
+      font-size:0;
+      height:10px;
+      width:10px;
+      @include box-shadow(0 0 0 2px #ffffff);
+    }
+
+    .current{
+      background-color: #ff7c15;
+    }
+
+  }
+}
+
+
+
+//////service
+
+.spacing{
+  position:relative;
+  margin-left:30px;
+
+  li{
+    list-style: circle;
+  }
+}
+
+$gutter-width:20;
+$column-width:20;
+.service-information{
+  @include row(100);
+  .information{
+    @include column(40,100);
+    @include push(5);
+    box-sizing: border-box;
+  }
+
+  .information:nth-of-type(2n){
+    @include push(10);
+  }
+}
