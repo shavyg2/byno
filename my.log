@@ -1,659 +1,857 @@
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG entering DirectoryManager 1399286949609
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG getting ready to load the files
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG entering DirectoryManager 1399286949623
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG we have finished reading the directory and now wish to process the files
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\contact.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\service.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\service_area.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG renderline contact created
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     #need head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #need menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="main-page">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\contact.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\contact.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG renderline home created
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     #need head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #need menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="main-page">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	<div class="banner">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="banner-image">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="message">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <h1>24 hr Service</h1>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <p>We are local</p>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="area-of-business clearfix">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="industrial">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <h2>Industrial</h2>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="commercial">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <h2>Commercial</h2>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="residential">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <h2>Residential</h2>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="institution">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <h2>Institution</h2>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="building"></div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="quote-banner">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <p class="big-quote">Byno Mechanical Plumbing/ Heating has been serving the GTA and surrounding area since 1982. We are a full service company ready to take your call.</p>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG renderline service created
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     #need head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #need menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="main-page">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\service.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\service.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG renderline service-area created
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     #need head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\style.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #need menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="main-page">
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\service_area.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\service_area.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG     </body>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG finished reading the directory files for creating the views
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\baselayout.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\contact.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\head.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\home.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\js.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\menu.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\service.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\service_area.html
-[Mon May 05 2014 06:49:09 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\byno-reload\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG entering DirectoryManager 1399319856646
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG getting ready to load the files
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG entering DirectoryManager 1399319856652
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG we have finished reading the directory and now wish to process the files
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\service_area.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG renderline contact created
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="wrapper">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="main-page">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="hundo">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Whether you need responsive plumbing service, to discuss a project, &nbsp;or to request a quote please contact Byno Mechanical Plumbing Heating Ltd.&nbsp;</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Tel: 905 882 4574</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Fax: 905 886 9278</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Cell: 416 402 8881</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Email: <a href="mailto:byno@rogers.com">byno@rogers.com</a></p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Office Hours:</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Monday - Fridays</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>8:00 a.m. to 8:00 p.m.</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>Weekend and outside office hours: Call 416 402 8881</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>A service technician is available 24/7</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>&nbsp;</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>&nbsp;</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>&nbsp;</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <p>&nbsp;</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG renderline home created
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="wrapper">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="main-page">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	<div class="banner">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="banner-image">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="message">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <h3>24 hr Service</h3>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <p>We are local</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="area-of-business">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="industrial">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <h5>Industrial</h5>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="commercial">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <h5>Commercial</h5>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="residential">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <h5>Residential</h5>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="item">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <div class="image" id="institution">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <h5>Institution</h5>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="building"></div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="quote-banner">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <p class="big-quote">Byno Mechanical Plumbing/ Heating has been serving the GTA and surrounding area since 1982. We are a full service company ready to take your call.</p>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG renderline service-area created
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="wrapper">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="main-page">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service_area.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service_area.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG building renderline
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG renderline service created
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name main-layout
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <!doctype html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <html lang="en-US">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name head
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name style
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/screen.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/ie.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <link rel="stylesheet" href="{{asset*style/stylesheets/print.css*}}"/>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\style.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	#need js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name js
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@if($title)
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	<title>{{title}}</title>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 	@endif
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </head>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #need menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #name menu
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="navigation">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/'* / }}">Home</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/service'* service.html}}">Service</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="{{exec*'/contact'* contact.html}}">Contact</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG             <li><a href="backflow-preventor">Backflow Preventor</a></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         </ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </nav>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="wrapper">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="main-page">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         #child page
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG {"key":"#child","value":"page"}
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <h1>Services</h1>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <ul class="spacing">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <li><div class="thumbnail" id="plumbing-image">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="text">Plumbing Services</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <li><div class="thumbnail" id="gas-image">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="text">Gas appliance installation</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <li><div class="thumbnail" id="drain-image">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="text">CCTV Drain/Video Inspection</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <li><div class="thumbnail" id="ac-image">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="text">Air Condition Repair & Installation</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <li><div class="thumbnail" id="furnace-image">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="text">Furnace Repair & Installation</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <li><div class="thumbnail" id="sprinkler-image">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG         <div class="text">Sprinkler System</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div></li>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </ul>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <h1>Service Area</h1>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="image-map">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="map-section" id="peel"></div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="map-section" id="durham"></div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="map-section" id="halton"></div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="map-section" id="toronto"></div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="map-section" id="york"></div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG <div class="map-labels">
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="region" id="toronto">Toronto</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="region" id="york">York</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="region" id="durham">Durham</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="region" id="halton">Halton</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     <div class="region" id="peel">Peel</div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG #stop
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG     </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </div>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </body>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG --------------------------------
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG 1,c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG </html>
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG finished reading the directory files for creating the views
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\baselayout.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\head.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\contact.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\home.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\js.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\menu.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\service.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\service_area.html
+[Mon May 05 2014 15:57:36 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file c:\sites\Byno\viewbuilder\style.html

@@ -2,10 +2,13 @@
 <!doctype html>
 <html lang="en-US">
 <?php include('head.php') ?>
-    <body>
+<body>
+
 <?php include('menu.php') ?>
-        <div class="main-page">
+<div class="wrapper">
+    <div class="main-page">
         #child page
-        </div>
-    </body>
+    </div>
+</div>
+</body>
 </html>

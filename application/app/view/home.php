@@ -10,7 +10,7 @@
   if(!isset($last)){
     $last=null;
   }
-  $last=$renderstack[count($renderstack)-1];
+  $last=&$renderstack[count($renderstack)-1];
   if(isset($last) && !isset($last->parent)){
     $last->parent=null;
   }
@@ -29,38 +29,38 @@
 
         </div>
         <div class="message">
-            <h1>24 hr Service</h1>
+            <h3>24 hr Service</h3>
             <p>We are local</p>
         </div>
     </div>
 
 
-    <div class="area-of-business clearfix">
+    <div class="area-of-business">
         <div class="item">
             <div class="image" id="industrial">
 
             </div>
-            <h2>Industrial</h2>
+            <h5>Industrial</h5>
 
         </div>
         <div class="item">
             <div class="image" id="commercial">
 
             </div>
-            <h2>Commercial</h2>
+            <h5>Commercial</h5>
         </div>
         <div class="item">
             <div class="image" id="residential">
 
             </div>
-            <h2>Residential</h2>
+            <h5>Residential</h5>
 
         </div>
         <div class="item">
             <div class="image" id="institution">
 
             </div>
-            <h2>Institution</h2>
+            <h5>Institution</h5>
         </div>
         <div class="building"></div>
         <div class="quote-banner">
@@ -74,7 +74,7 @@
 ?>
 <?php
 if(isset($renderstack) && count($renderstack)>0){
-   $last=array_pop($renderstack);
+   $last=&array_pop($renderstack);
    if(isset($last->sections)):
      foreach($last->sections as $key=>$value){
        if(isset($last) && isset($last->parent)):
