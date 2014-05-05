@@ -1,0 +1,56 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "menu.scss";
+//@import "_vars-typeplate.scss";
+//@import "_typeplate.scss";
+@import "grid.scss";
+
+$column-width:60;
+$column-gutter:20;
+$columns:100;
+
+$total-width:100%;
+
+////Navigation
+
+.navigation{
+	display:block;
+	@include column(80);
+	@include push(10);
+	ul{
+		@include row(80);
+		li{
+			@include column(20,80);
+
+		}
+	}	
+}
+
+
+.main-page{
+	@include column(70);
+	@include push(15);
+}
+
+
+
+
+
+///////Home Page
+.banner{
+	.banner-image{
+		vertical-align:top;
+		max-width:1000px;
+		background-image:url("/assets/image/crop-truck.png");
+		background-position:50% 50%;
+		background-size:100% auto;
+		min-height:185px;
+		background-repeat:no-repeat;
+		overflow:hidden;
+	}
+}
+

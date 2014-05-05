@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "name": "home",
+      "controller": "MainController",
+      "method": "main",
+      "url": "/",
+      "match": "/"
+    },
+    {
+      "name": "contact",
+      "controller": "MainController",
+      "method": "contact",
+      "url": "/contact",
+      "match": "/contact"
+    },
+    {
+      "name": "service",
+      "controller": "MainController",
+      "method": "service",
+      "url": "/service",
+      "match": "/service"
+    },
+    {
+      "name": "service-area",
+      "controller": "MainController",
+      "method": "serviceArea",
+      "url": "/serviceArea",
+      "match": "/serviceArea"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 41, ../sass/grid.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 27, ../sass/grid.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+body:after {
+  clear: both;
+}
+
+/* line 20, ../sass/screen.scss */
+.navigation {
+  display: block;
+  display: inline;
+  float: left;
+  width: 79.75%;
+  margin: 0 0.125%;
+  margin-left: 10.125%;
+}
+/* line 24, ../sass/screen.scss */
+.navigation ul {
+  display: block;
+  width: 100.3125%;
+  margin: 0 -0.15625%;
+  *zoom: 1;
+}
+/* line 27, ../sass/grid.scss */
+.navigation ul:before, .navigation ul:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.navigation ul:after {
+  clear: both;
+}
+/* line 26, ../sass/screen.scss */
+.navigation ul li {
+  display: inline;
+  float: left;
+  width: 24.6875%;
+  margin: 0 0.15625%;
+}
+
+/* line 34, ../sass/screen.scss */
+.main-page {
+  display: inline;
+  float: left;
+  width: 69.75%;
+  margin: 0 0.125%;
+  margin-left: 15.125%;
+}
+
+/* line 45, ../sass/screen.scss */
+.banner .banner-image {
+  vertical-align: top;
+  max-width: 1000px;
+  background-image: url("/assets/image/crop-truck.png");
+  background-position: 50% 50%;
+  background-size: 100% auto;
+  min-height: 185px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
