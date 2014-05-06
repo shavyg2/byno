@@ -10,7 +10,7 @@
   if(!isset($last)){
     $last=null;
   }
-  $last=&$renderstack[count($renderstack)-1];
+  $last=$renderstack[count($renderstack)-1];
   if(isset($last) && !isset($last->parent)){
     $last->parent=null;
   }
@@ -34,67 +34,85 @@
 
 <h1>Services</h1>
 <!--<ul class="spacing">-->
-    <!--<li>-->
-        <!--<div class="thumbnail" id="plumbing-image">-->
-            <!--<div class="text">Plumbing Services</div>-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--<div class="thumbnail" id="gas-image">-->
-            <!--<div class="text">Gas appliance installation</div>-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--<div class="thumbnail" id="drain-image">-->
-            <!--<div class="text">CCTV Drain/Video Inspection</div>-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--<div class="thumbnail" id="ac-image">-->
-            <!--<div class="text">Air Condition Repair & Installation</div>-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--<div class="thumbnail" id="furnace-image">-->
-            <!--<div class="text">Furnace Repair & Installation</div>-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--<li>-->
-        <!--<div class="thumbnail" id="sprinkler-image">-->
-            <!--<div class="text">Sprinkler System</div>-->
-        <!--</div>-->
-    <!--</li>-->
+<!--<li>-->
+<!--<div class="thumbnail" id="plumbing-image">-->
+<!--<div class="text">Plumbing Services</div>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li>-->
+<!--<div class="thumbnail" id="gas-image">-->
+<!--<div class="text">Gas appliance installation</div>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li>-->
+<!--<div class="thumbnail" id="drain-image">-->
+<!--<div class="text">CCTV Drain/Video Inspection</div>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li>-->
+<!--<div class="thumbnail" id="ac-image">-->
+<!--<div class="text">Air Condition Repair & Installation</div>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li>-->
+<!--<div class="thumbnail" id="furnace-image">-->
+<!--<div class="text">Furnace Repair & Installation</div>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li>-->
+<!--<div class="thumbnail" id="sprinkler-image">-->
+<!--<div class="text">Sprinkler System</div>-->
+<!--</div>-->
+<!--</li>-->
 <!--</ul>-->
 
 <div class="service-information">
-    <div class="information">
-        <h5>Plumbing Services</h5>
+    <div class="row">
+        <div class="information">
+            <h5>Plumbing Services</h5>
 <?php include('plumbing-service.php') ?>
-    </div>
+        </div>
 
-    <div class="information">
-        <h5>Gas Appliance Installation</h5>
+        <div class="information">
+            <h5>Gas Appliance Installation</h5>
 <?php include('gas-appliance-installation.php') ?>
+        </div>
     </div>
 
-    <div class="information last">
-        <h5>CCTV Drain/Video Inspection</h5>
+    <div class="row">
+        <div class="information last">
+            <h5>CCTV Drain/Video Inspection</h5>
 <?php include('cctv-drain-video-inspection.php') ?>
-    </div>
+        </div>
 
-    <div class="information">
-        <h5>Air Condition Repair & Installation</h5>
+        <div class="information">
+            <h5>Air Condition Repair & Installation</h5>
 <?php include('air-condition-repair-installation.php') ?>
+        </div>
     </div>
 
-    <div class="information">
-        <h5>Furnace Repair & Installation</h5>
+    <div class="row">
+        <div class="information">
+            <h5>Furnace Repair & Installation</h5>
 <?php include('furnace-repair-installation.php') ?>
+        </div>
+
+        <div class="information">
+            <h5>Sprinkler System</h5>
+<?php include('sprinkler-system.php') ?>
+        </div>
     </div>
 
-    <div class="information">
-        <h5>Sprinkler System</h5>
-<?php include('sprinkler-system.php') ?>
+    <div class="row">
+        <div class="information">
+            <h5>Propress</h5>
+<?php include('propress-machine.php') ?>
+        </div>
+
+        <div class="information">
+            <h5>Backflow Preventor</h5>
+<?php include('backflow-preventor.php') ?>
+        </div>
     </div>
 </div>
 
@@ -120,7 +138,7 @@
 ?>
 <?php
 if(isset($renderstack) && count($renderstack)>0){
-   $last=&array_pop($renderstack);
+   $last=array_pop($renderstack);
    if(isset($last->sections)):
      foreach($last->sections as $key=>$value){
        if(isset($last) && isset($last->parent)):

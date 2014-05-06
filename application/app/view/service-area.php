@@ -10,7 +10,7 @@
   if(!isset($last)){
     $last=null;
   }
-  $last=&$renderstack[count($renderstack)-1];
+  $last=$renderstack[count($renderstack)-1];
   if(isset($last) && !isset($last->parent)){
     $last->parent=null;
   }
@@ -30,7 +30,7 @@
 ?>
 <?php
 if(isset($renderstack) && count($renderstack)>0){
-   $last=&array_pop($renderstack);
+   $last=array_pop($renderstack);
    if(isset($last->sections)):
      foreach($last->sections as $key=>$value){
        if(isset($last) && isset($last->parent)):
