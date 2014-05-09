@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+git add --all
+git commit -am"automatic save"
+git push origin

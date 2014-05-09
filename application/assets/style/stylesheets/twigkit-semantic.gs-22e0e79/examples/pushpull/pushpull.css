@@ -1,0 +1,52 @@
+@import url(../../stylesheets/reset.css);
+@import url(../../stylesheets/demo.css);
+/* line 41, ../../../../sass/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 27, ../../../../sass/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../../../../sass/twigkit-semantic.gs-22e0e79/stylesheets/scss/grid.scss */
+body:after {
+  clear: both;
+}
+
+/* line 24, ../../../../sass/twigkit-semantic.gs-22e0e79/examples/pushpull/pushpull.scss */
+div.center {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 31, ../../../../sass/twigkit-semantic.gs-22e0e79/examples/pushpull/pushpull.scss */
+header#top {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  margin-bottom: 1em;
+}
+
+/* line 37, ../../../../sass/twigkit-semantic.gs-22e0e79/examples/pushpull/pushpull.scss */
+#push {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  margin-left: 330px;
+  margin-bottom: 1em;
+}
+
+/* line 44, ../../../../sass/twigkit-semantic.gs-22e0e79/examples/pushpull/pushpull.scss */
+#pull {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  margin-right: 330px;
+  margin-bottom: 1em;
+}

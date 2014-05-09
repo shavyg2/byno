@@ -1,0 +1,9 @@
+{
+    "require": {
+        "illuminate/database": "4.*"
+    },
+    "autoload":{
+        "classmap":["app/controller","app/model","app/view","app/engine"]
+    }
+
+}
