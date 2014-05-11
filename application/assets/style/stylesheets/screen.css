@@ -1,0 +1,949 @@
+@charset "IBM437";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*! 
+TYPEPLATE
+URL ........... http://typeplate.com
+VERSION ....... 1.1.3
+Github ........ https://github.com/typeplate/bower
+AUTHORS ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+LICENSE ....... Creative Commmons Attribution 3.0 (http://creativecommons.org/licenses/by/3.0)
+LICENSE URL ... https://github.com/typeplate/bower/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+/* line 385, ../sass/_typeplate.scss */
+body {
+  word-wrap: break-word;
+}
+
+/* line 389, ../sass/_typeplate.scss */
+pre code {
+  word-wrap: normal;
+}
+
+/**
+ * Dropcap Sass @include
+ * Use the following Sass @include with any selector you feel necessary.
+ *
+	@include dropcap($dropcap-float-position, $dropcap-font-size, $dropcap-font-family, $dropcap-txt-indent, $dropcap-margin, $dropcap-padding, $dropcap-color, $dropcap-line-height, $dropcap-bg);
+ *
+ * Extend this object into your custom stylesheet. Let the variables do the work.
+ *
+ */
+/* line 514, ../sass/_typeplate.scss */
+html {
+  font: normal 112.5%/1.65 serif;
+}
+
+/* line 522, ../sass/_typeplate.scss */
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  color: #444444;
+}
+
+/* line 533, ../sass/_typeplate.scss */
+small {
+  font-size: 65%;
+}
+
+/* line 557, ../sass/_typeplate.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.tera {
+  font-size: 117px;
+  font-size: 6.5rem;
+  margin-bottom: 0.25385px;
+  margin-bottom: 0.25385rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.giga {
+  font-size: 90px;
+  font-size: 5rem;
+  margin-bottom: 0.33px;
+  margin-bottom: 0.33rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.mega {
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 0.4125px;
+  margin-bottom: 0.4125rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.alpha, h1 {
+  font-size: 60px;
+  font-size: 3.33333rem;
+  margin-bottom: 0.495px;
+  margin-bottom: 0.495rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.beta, h2 {
+  font-size: 48px;
+  font-size: 2.66667rem;
+  margin-bottom: 0.61875px;
+  margin-bottom: 0.61875rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.gamma, h3 {
+  font-size: 36px;
+  font-size: 2rem;
+  margin-bottom: 0.825px;
+  margin-bottom: 0.825rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.delta, h4 {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  margin-bottom: 1.2375px;
+  margin-bottom: 1.2375rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.epsilon, h5 {
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 1.41429px;
+  margin-bottom: 1.41429rem;
+}
+
+/* line 572, ../sass/_typeplate.scss */
+.zeta, h6 {
+  font-size: 18px;
+  font-size: 1rem;
+  margin-bottom: 1.65px;
+  margin-bottom: 1.65rem;
+}
+
+/* line 612, ../sass/_typeplate.scss */
+p {
+  margin: auto auto 1.5em;
+}
+/* line 617, ../sass/_typeplate.scss */
+p + p {
+  text-indent: 1.5em;
+  margin-top: -1.5em;
+}
+
+/* line 642, ../sass/_typeplate.scss */
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+}
+
+/* line 650, ../sass/_typeplate.scss */
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+/* line 655, ../sass/_typeplate.scss */
+pre {
+  white-space: pre;
+}
+
+/* line 659, ../sass/_typeplate.scss */
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+/**
+ * Abbreviations Markup
+ *
+	<abbr title="hyper text markup language">HMTL</abbr>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 675, ../sass/_typeplate.scss */
+abbr {
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+/* line 677, ../sass/_typeplate.scss */
+abbr[title]:hover {
+  cursor: help;
+}
+
+/* line 691, ../sass/_typeplate.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222222;
+}
+
+/* line 701, ../sass/_typeplate.scss */
+p + .drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/* line 416, ../sass/_typeplate.scss */
+.drop-cap:first-letter {
+  float: left;
+  margin: inherit;
+  padding: inherit;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+	<dl class="lining">
+		<dt><b></b></dt>
+		<dd></dd>
+	</dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 455, ../sass/_typeplate.scss */
+.lining dt,
+.lining dd {
+  display: inline;
+  margin: 0;
+}
+/* line 462, ../sass/_typeplate.scss */
+.lining dt + dt:before,
+.lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+/* line 470, ../sass/_typeplate.scss */
+.lining dd + dd:before {
+  content: ", ";
+}
+/* line 474, ../sass/_typeplate.scss */
+.lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+	<dl class="dictionary-style">
+		<dt><b></b></dt>
+			<dd></dd>
+	</dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 482, ../sass/_typeplate.scss */
+.dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+/* line 486, ../sass/_typeplate.scss */
+.dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+/* line 492, ../sass/_typeplate.scss */
+.dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+/* line 495, ../sass/_typeplate.scss */
+.dictionary-style dd:before {
+  content: counter(definitions,decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+		<figure>
+			<blockquote cite="">
+				<p></p>
+			</blockquote>
+			<figcaption>
+				<cite>
+					<small><a href=""></a></small>
+				</cite>
+			</figcaption>
+		</figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+	<aside class="pull-quote">
+		<blockquote>
+			<p></p>
+		</blockquote>
+	</aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+/* line 785, ../sass/_typeplate.scss */
+.pull-quote {
+  position: relative;
+  padding: 1em;
+}
+/* line 357, ../sass/_typeplate.scss */
+.pull-quote:before, .pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+/* line 364, ../sass/_typeplate.scss */
+.pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+/* line 369, ../sass/_typeplate.scss */
+.pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+	<figure>
+		<figcaption>
+			<strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
+		</figcaption>
+	</figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+	<article>
+		<p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+		<footer>
+			<ol class="foot-notes">
+				<li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+			</ol>
+		</footer>
+	</article>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* line 41, ../sass/grid.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 27, ../sass/grid.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+body:after {
+  clear: both;
+}
+
+/* line 18, ../sass/screen.scss */
+strong {
+  font-weight: 800;
+}
+
+/* line 22, ../sass/screen.scss */
+body {
+  background-color: whitesmoke;
+  margin: auto;
+}
+
+/* line 27, ../sass/screen.scss */
+.wrapper {
+  text-align: left;
+  display: inline;
+  float: left;
+  width: 997.5px;
+  margin: 0 1.25px;
+  display: block;
+  float: none;
+  margin: auto;
+}
+
+/* line 36, ../sass/screen.scss */
+.main-page {
+  display: block;
+  width: 1002.5px;
+  margin: 0 -1.25px;
+  *zoom: 1;
+  -webkit-box-shadow: 0 0 30px 0 #cfcfcf;
+  -moz-box-shadow: 0 0 30px 0 #cfcfcf;
+  box-shadow: 0 0 30px 0 #cfcfcf;
+  padding: 5px;
+}
+/* line 27, ../sass/grid.scss */
+.main-page:before, .main-page:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.main-page:after {
+  clear: both;
+}
+
+/* line 42, ../sass/screen.scss */
+.main-page {
+  background-color: white;
+  box-sizing: border-box;
+}
+
+/* line 49, ../sass/screen.scss */
+.navigation {
+  position: relative;
+  z-index: 1000;
+  display: block;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0px 5px 15px #797979;
+  -moz-box-shadow: 0px 5px 15px #797979;
+  box-shadow: 0px 5px 15px #797979;
+}
+/* line 58, ../sass/screen.scss */
+.navigation ul {
+  display: block;
+  width: 1002.5px;
+  margin: 0 -1.25px;
+  *zoom: 1;
+  margin: auto;
+}
+/* line 27, ../sass/grid.scss */
+.navigation ul:before, .navigation ul:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.navigation ul:after {
+  clear: both;
+}
+/* line 62, ../sass/screen.scss */
+.navigation ul li {
+  text-align: center;
+  display: inline;
+  float: left;
+  width: 246.875px;
+  margin: 0 1.5625px;
+}
+/* line 65, ../sass/screen.scss */
+.navigation ul li a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+/* line 75, ../sass/screen.scss */
+.page-title {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+/* line 80, ../sass/screen.scss */
+.banner {
+  height: 280px;
+  overflow: hidden;
+}
+/* line 84, ../sass/screen.scss */
+.banner .banner-image {
+  margin: auto;
+  vertical-align: top;
+  max-width: 1000px;
+  background-image: url("/assets/image/crop-truck.png");
+  background-position: 50% 50%;
+  background-size: 100% auto;
+  min-height: 280px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+/* line 96, ../sass/screen.scss */
+.banner .message {
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: top;
+  -moz-transition-property: top;
+  -o-transition-property: top;
+  transition-property: top;
+  position: relative;
+  top: 0px;
+  left: 10px;
+  display: inline-table;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+}
+/* line 107, ../sass/screen.scss */
+.banner .message h3 {
+  color: white;
+}
+/* line 111, ../sass/screen.scss */
+.banner .message h3, .banner .message p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 118, ../sass/screen.scss */
+.banner:hover > .message {
+  top: -100px;
+}
+
+/* line 122, ../sass/screen.scss */
+.area-of-business {
+  display: block;
+  width: 1002.5px;
+  margin: 0 -1.25px;
+  *zoom: 1;
+  margin-top: 20px;
+}
+/* line 27, ../sass/grid.scss */
+.area-of-business:before, .area-of-business:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.area-of-business:after {
+  clear: both;
+}
+
+/* line 127, ../sass/screen.scss */
+.item {
+  display: inline;
+  float: left;
+  width: 497.5px;
+  margin: 0 1.25px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* line 135, ../sass/screen.scss */
+.item .image {
+  margin: auto;
+  background-position: 50% 50%;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  -webkit-transition-property: background-position;
+  -moz-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  background-color: #b4e3ec;
+}
+/* line 148, ../sass/screen.scss */
+.item h5 {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: 0px;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: top;
+  -moz-transition-property: top;
+  -o-transition-property: top;
+  transition-property: top;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 160, ../sass/screen.scss */
+#industrial {
+  background-image: url("/assets/image/bars.png");
+}
+
+/* line 164, ../sass/screen.scss */
+#commercial {
+  background-image: url("/assets/image/office.png");
+}
+
+/* line 168, ../sass/screen.scss */
+#residential {
+  background-image: url("/assets/image/home2.png");
+}
+
+/* line 172, ../sass/screen.scss */
+#institution {
+  background-image: url("/assets/image/library.png");
+}
+
+/* line 176, ../sass/screen.scss */
+.quote-banner {
+  display: inline;
+  float: left;
+  width: 997.5px;
+  margin: 0 1.25px;
+  margin-top: 10px;
+}
+/* line 180, ../sass/screen.scss */
+.quote-banner .big-quote {
+  display: inline;
+  float: left;
+  width: 597.5px;
+  margin: 0 1.25px;
+  margin-left: 201.25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* line 181, ../sass/screen.scss */
+.quote-banner .big-quote:before {
+  content: "\201C";
+  font-size: 48;
+}
+/* line 191, ../sass/screen.scss */
+.quote-banner .big-quote:after {
+  content: "\201D";
+  font-size: 48;
+}
+
+/* line 200, ../sass/screen.scss */
+#slider {
+  text-align: right;
+}
+/* line 202, ../sass/screen.scss */
+#slider .surface {
+  z-index: 5;
+}
+/* line 208, ../sass/screen.scss */
+#slider .pagination {
+  display: inline;
+}
+/* line 213, ../sass/screen.scss */
+#slider .pagination li {
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  position: relative;
+  z-index: 10;
+  top: -50px;
+  color: #bdbdbd;
+  background-color: #bdbdbd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px 10px;
+  font-size: 0;
+  height: 10px;
+  width: 10px;
+  -webkit-box-shadow: 0 0 0 2px white;
+  -moz-box-shadow: 0 0 0 2px white;
+  box-shadow: 0 0 0 2px white;
+}
+/* line 229, ../sass/screen.scss */
+#slider .pagination .current {
+  background-color: #ff7c15;
+}
+
+/* line 238, ../sass/screen.scss */
+.spacing {
+  position: relative;
+  margin-left: 30px;
+}
+/* line 242, ../sass/screen.scss */
+.spacing li {
+  list-style: circle;
+}
+
+/* line 249, ../sass/screen.scss */
+.service-information {
+  display: block;
+  width: 1005.0px;
+  margin: 0 -2.5px;
+  *zoom: 1;
+}
+/* line 27, ../sass/grid.scss */
+.service-information:before, .service-information:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.service-information:after {
+  clear: both;
+}
+/* line 252, ../sass/screen.scss */
+.service-information .row {
+  display: block;
+  width: 1005.0px;
+  margin: 0 -2.5px;
+  *zoom: 1;
+  padding-bottom: 10px;
+}
+/* line 27, ../sass/grid.scss */
+.service-information .row:before, .service-information .row:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.service-information .row:after {
+  clear: both;
+}
+/* line 257, ../sass/screen.scss */
+.service-information .information {
+  display: inline;
+  float: left;
+  width: 395px;
+  margin: 0 2.5px;
+  margin-left: 52.5px;
+  box-sizing: border-box;
+}
+/* line 263, ../sass/screen.scss */
+.service-information .information:nth-of-type(2n) {
+  margin-left: 102.5px;
+}
+
+/* line 271, ../sass/screen.scss */
+.contact-image {
+  display: block;
+  width: 1005.0px;
+  margin: 0 -2.5px;
+  *zoom: 1;
+}
+/* line 27, ../sass/grid.scss */
+.contact-image:before, .contact-image:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../sass/grid.scss */
+.contact-image:after {
+  clear: both;
+}
+
+/* line 275, ../sass/screen.scss */
+.clean-form {
+  display: inline;
+  float: left;
+  width: 995px;
+  margin: 0 2.5px;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 100%;
+  overflow: visible;
+}
+/* line 285, ../sass/screen.scss */
+.clean-form .left, .clean-form .right {
+  height: 300px;
+}
+/* line 287, ../sass/screen.scss */
+.clean-form .left input, .clean-form .left textarea, .clean-form .right input, .clean-form .right textarea {
+  background-color: white;
+  display: block;
+  padding: 15px;
+  margin-bottom: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 2px solid #d1d1d1;
+  width: 90%;
+  -webkit-transition-property: border, width;
+  -moz-transition-property: border, width;
+  -o-transition-property: border, width;
+  transition-property: border, width;
+  -webkit-transition-duration: 500ms;
+  -moz-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  color: gray;
+}
+/* line 300, ../sass/screen.scss */
+.clean-form .left input[type="submit"], .clean-form .right input[type="submit"] {
+  border: 0;
+  width: 100%;
+  -webkit-box-shadow: inset 0 0 2px #5a5a5a;
+  -moz-box-shadow: inset 0 0 2px #5a5a5a;
+  box-shadow: inset 0 0 2px #5a5a5a;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  border: 0px solid #d1d1d1;
+}
+/* line 309, ../sass/screen.scss */
+.clean-form .left input[type="submit"]:hover, .clean-form .right input[type="submit"]:hover {
+  -webkit-box-shadow: inset 0px 0px 2px #5a5a5a;
+  -moz-box-shadow: inset 0px 0px 2px #5a5a5a;
+  box-shadow: inset 0px 0px 2px #5a5a5a;
+}
+/* line 315, ../sass/screen.scss */
+.clean-form .left input:last-of-type, .clean-form .right input:last-of-type {
+  margin-bottom: 0;
+}
+/* line 318, ../sass/screen.scss */
+.clean-form .left textarea, .clean-form .right textarea {
+  width: 100%;
+  height: 100%;
+}
+/* line 323, ../sass/screen.scss */
+.clean-form .left input:focus, .clean-form .right input:focus {
+  outline: none;
+  border: 2px solid #759dff;
+}
+/* line 329, ../sass/screen.scss */
+.clean-form .left {
+  display: inline;
+  float: left;
+  width: 395px;
+  margin: 0 2.5px;
+  margin-left: 52.5px;
+  margin-top: 28px;
+}
+/* line 336, ../sass/screen.scss */
+.clean-form .right {
+  display: inline;
+  float: left;
+  width: 395px;
+  margin: 0 2.5px;
+}
+/* line 338, ../sass/screen.scss */
+.clean-form .right label {
+  color: #b3b3b3;
+}

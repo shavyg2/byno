@@ -1,0 +1,20 @@
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG entering DirectoryManager 1399660419648
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG finished reading the directory files for creating the views
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\baselayout.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\contact.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\head.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\home.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\js.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\menu.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service_area.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\slider.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\style.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\air-condition-repair-installation.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\backflow-preventor.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\cctv-drain-video-inspection.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\furnace-repair-installation.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\gas-appliance-install.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\plumbing-service.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\propress-machine.html
+[Fri May 09 2014 14:33:39 GMT-0400 (Eastern Daylight Time)] DEBUG moving on to process file C:\sites\Byno\viewbuilder\service-information\sprinkler-system.html

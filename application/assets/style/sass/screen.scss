@@ -1,0 +1,342 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import "compass/css3";
+@import "menu.scss";
+@import "_vars-typeplate.scss";
+@import "_typeplate.scss";
+@import "grid.scss";
+
+$column-width: 60;
+$column-gutter: 20;
+$columns: 100;
+
+$total-width: 1000px;
+
+strong {
+  font-weight: 800;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: auto;
+}
+
+.wrapper {
+  text-align: left;
+  @include column(100);
+  display:block;
+  float:none;
+  margin: auto;
+
+}
+
+.main-page {
+  @include row(100);
+  @include box-shadow(0 0 30px 0 #cfcfcf);
+  padding: 5px;
+}
+
+.main-page {
+  background-color: white;
+  box-sizing: border-box;
+}
+
+////Navigation
+
+.navigation {
+  position: relative;
+  z-index: 1000;
+  display: block;
+  background-color: white;
+  $pd: 10px;
+  padding-top: $pd;
+  padding-bottom: $pd;
+  @include box-shadow(0px 5px 15px #797979);
+  ul {
+    @include row(100);
+    margin: auto;
+
+    li {
+      text-align: center;
+      @include column(20, 80);
+      a {
+        text-decoration: none;
+        color: #0f0f0f;
+      }
+    }
+  }
+}
+
+///////Home Page
+
+.page-title {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.banner {
+  height: 280px;
+  overflow: hidden;
+
+  .banner-image {
+    margin: auto;
+    vertical-align: top;
+    max-width: 1000px;
+    background-image: url("/assets/image/crop-truck.png");
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    min-height: 280px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .message {
+    @include transition-duration(1s);
+    @include transition-property(top);
+    position: relative;
+    top: 0px;
+    left: 10px;
+    display: inline-table;
+    background-color: orange;
+    $color: white;
+    color: $color;
+    padding: 10px;
+    h3 {
+      color: $color;
+    }
+
+    h3, p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.banner:hover > .message {
+  top: -100px;
+}
+
+.area-of-business {
+  @include row(100);
+  margin-top: 20px;
+}
+
+.item {
+  $icon-size: 200px;
+  @include column(50, 100);
+  //  height:$icon-size;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  .image {
+    margin: auto;
+    background-position: 50% 50%;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    height: $icon-size;
+    width: $icon-size;
+    @include transition-property(background-position);
+    @include transition-duration(1s);
+    @include border-radius($icon-size/2);
+    background-color: #b4e3ec;
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 0px;
+    @include transition-duration(1s);
+    @include transition-property(top);
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+#industrial {
+  background-image: url("/assets/image/bars.png");
+}
+
+#commercial {
+  background-image: url("/assets/image/office.png");
+}
+
+#residential {
+  background-image: url("/assets/image/home2.png");
+}
+
+#institution {
+  background-image: url("/assets/image/library.png");
+}
+
+.quote-banner {
+  @include column(100);
+  margin-top: 10px;
+
+  .big-quote {
+    &:before {
+      content: "\201C";
+      font-size: $beta;
+    }
+
+    @include column(60);
+    @include push(20);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    &:after {
+      content: "\201D";
+      font-size: $beta;
+    }
+  }
+}
+
+///////////Slider
+
+#slider {
+
+  .surface {
+    z-index: 5;
+  }
+
+  text-align: right;
+
+  .pagination {
+
+    display: inline;
+
+    $c: #bdbdbd;
+    li {
+      @include transition-duration(1s);
+      @include transition-property(background-color);
+      position: relative;
+      z-index: 10;
+      top: -50px;
+      color: $c;
+      background-color: $c;
+      @include border-radius(5px);
+      margin: 5px 10px;
+      font-size: 0;
+      height: 10px;
+      width: 10px;
+      @include box-shadow(0 0 0 2px #ffffff);
+    }
+
+    .current {
+      background-color: #ff7c15;
+    }
+
+  }
+}
+
+//////service
+
+.spacing {
+  position: relative;
+  margin-left: 30px;
+
+  li {
+    list-style: circle;
+  }
+}
+
+$gutter-width: 20;
+$column-width: 20;
+.service-information {
+  @include row(100);
+
+  .row {
+    @include row(100);
+    padding-bottom: 10px;
+  }
+
+  .information {
+    @include column(40, 100);
+    @include push(5);
+    box-sizing: border-box;
+  }
+
+  .information:nth-of-type(2n) {
+    @include push(10);
+  }
+}
+
+//////////////////////  Contact ///////////////////////////
+
+
+.contact-image{
+  @include row(100);
+}
+
+.clean-form {
+  @include column(100);
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 100%;
+  overflow:visible;
+
+
+
+  .left, .right {
+    height: 300px;
+    input, textarea {
+      background-color: white;
+      display: block;
+      padding: 15px;
+      margin-bottom: 45px;
+      @include border-radius(5px);
+      border: 2px solid #d1d1d1;
+      width: 90%;
+      @include transition-property(border, width);
+      @include transition-duration(500ms);
+      color:gray;
+    }
+
+    input[type="submit"]{
+      border: 0;
+      width:100%;
+      @include box-shadow(inset 0 0 2px #5a5a5a);
+      @include transition-property(box-shadow);
+      @include transition-duration(1s);
+      border: 0px solid #d1d1d1;
+    }
+
+    input[type="submit"]:hover{
+      @include box-shadow(inset 0px 0px 2px #5a5a5a);
+    }
+
+
+
+    input:last-of-type {
+      margin-bottom: 0;
+    }
+    textarea {
+      width: 100%;
+      height: 100%;
+    }
+
+    input:focus {
+      outline: none;
+      border: 2px solid #759dff;
+    }
+  }
+
+  .left {
+    @include column(40, 100);
+    @include push(5);
+    margin-top:28px;
+
+  }
+
+  .right {
+    @include column(40, 100);
+    label{
+      color: #b3b3b3;
+    }
+  }
+}
