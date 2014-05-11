@@ -72,8 +72,7 @@ function server_app($url){
 
 
 function assets($url){
-    global $basedir;
-    $link="$basedir/assets/$url";
+    $link="/assets/$url";
     return str_replace("~//~","/",$link);
 }
 
@@ -84,7 +83,7 @@ function server_assets($url){
 }
 
 
-$match=[];
+$match=array();
 $hasUrl=false;
 foreach($config->routes as $route){
     if(preg_match("~^".$route->match."$~",$url->request(),$match) === 1){

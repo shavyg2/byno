@@ -15,57 +15,54 @@ $columns: 100;
 
 $total-width: 1000px;
 
-
-strong{
-  font-weight:800;
+strong {
+  font-weight: 800;
 }
 
-
-
-body{
-  background-color:whitesmoke;
-  margin:auto;
+body {
+  background-color: whitesmoke;
+  margin: auto;
 }
-.wrapper{
-  margin:auto;
-    width:1000px;
 
-}
-.main-page {
+.wrapper {
+  text-align: left;
   @include column(100);
-  @include box-shadow(0 0 30px 0 #cfcfcf);
-  padding:5px;
-  overflow-x: hidden;
+  display:block;
+  float:none;
+  margin: auto;
+
 }
 
-.main-page{
+.main-page {
+  @include row(100);
+  @include box-shadow(0 0 30px 0 #cfcfcf);
+  padding: 5px;
+}
+
+.main-page {
   background-color: white;
   box-sizing: border-box;
 }
 
-
-
-
-
 ////Navigation
 
 .navigation {
-  position:relative;
+  position: relative;
   z-index: 1000;
   display: block;
   background-color: white;
-  $pd:10px;
-  padding-top:$pd;
-  padding-bottom:$pd;
+  $pd: 10px;
+  padding-top: $pd;
+  padding-bottom: $pd;
   @include box-shadow(0px 5px 15px #797979);
   ul {
     @include row(100);
-    margin:auto;
+    margin: auto;
 
     li {
       text-align: center;
       @include column(20, 80);
-      a{
+      a {
         text-decoration: none;
         color: #0f0f0f;
       }
@@ -73,15 +70,19 @@ body{
   }
 }
 
-
-
 ///////Home Page
+
+.page-title {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
 .banner {
   height: 280px;
   overflow: hidden;
 
   .banner-image {
-    margin:auto;
+    margin: auto;
     vertical-align: top;
     max-width: 1000px;
     background-image: url("/assets/image/crop-truck.png");
@@ -95,9 +96,9 @@ body{
   .message {
     @include transition-duration(1s);
     @include transition-property(top);
-    position:relative;
-    top:0px;
-    left:10px;
+    position: relative;
+    top: 0px;
+    left: 10px;
     display: inline-table;
     background-color: orange;
     $color: white;
@@ -114,160 +115,228 @@ body{
   }
 }
 
-
-
-.banner:hover > .message{
-  top:-100px;
+.banner:hover > .message {
+  top: -100px;
 }
 
-
-
-
-.area-of-business{
+.area-of-business {
   @include row(100);
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .item {
-  @include column(25,100);
-  height:180px;
-  overflow:hidden;
+  $icon-size: 200px;
+  @include column(50, 100);
+  //  height:$icon-size;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 
   .image {
+    margin: auto;
     background-position: 50% 50%;
-    background-size: 125% auto;
+    background-size: auto auto;
     background-repeat: no-repeat;
-    height: 180px;
+    height: $icon-size;
+    width: $icon-size;
     @include transition-property(background-position);
     @include transition-duration(1s);
-    &:hover {
-      background-position: 40% 40%;
-    }
+    @include border-radius($icon-size/2);
+    background-color: #b4e3ec;
   }
 
-  h5{
-    position:relative;
-    top:0px;
+  h5 {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 0px;
     @include transition-duration(1s);
     @include transition-property(top);
-    background-color:white;
-    background-color:rgba(255,255,255,0.8);
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
   }
-}
-
-
-.item:hover > h5{
-top:-20px;
 }
 
 #industrial {
-  background-image: url("/assets/image/industrial-building.jpg");
+  background-image: url("/assets/image/bars.png");
 }
 
 #commercial {
-  background-image: url("/assets/image/commercial-building.jpg");
+  background-image: url("/assets/image/office.png");
 }
 
 #residential {
-  background-image: url("/assets/image/residential-building.png");
-  background-size: auto 125%;
+  background-image: url("/assets/image/home2.png");
 }
 
 #institution {
-  background-image: url("/assets/image/institution-building.jpg");
+  background-image: url("/assets/image/library.png");
 }
 
-
-.quote-banner{
+.quote-banner {
   @include column(100);
-  margin-top:10px;
+  margin-top: 10px;
 
-  .big-quote{
-    &:before{
-      content:"“";
-      font-size:$beta;
+  .big-quote {
+    &:before {
+      content: "\201C";
+      font-size: $beta;
     }
 
     @include column(60);
     @include push(20);
+    margin-top: 50px;
+    margin-bottom: 50px;
 
-    &:after{
-      content:"”";
-      font-size:$beta;
+    &:after {
+      content: "\201D";
+      font-size: $beta;
     }
   }
 }
 
-
-
 ///////////Slider
 
-#slider{
+#slider {
 
-  .surface{
-    z-index:5;
+  .surface {
+    z-index: 5;
   }
 
   text-align: right;
 
-  .pagination{
+  .pagination {
 
-    display:inline;
+    display: inline;
 
     $c: #bdbdbd;
-    li{
+    li {
       @include transition-duration(1s);
       @include transition-property(background-color);
-      position:relative;
+      position: relative;
       z-index: 10;
-      top:-50px;
-      color:$c;
-      background-color:$c;
+      top: -50px;
+      color: $c;
+      background-color: $c;
       @include border-radius(5px);
-      margin:5px 10px;
-      font-size:0;
-      height:10px;
-      width:10px;
+      margin: 5px 10px;
+      font-size: 0;
+      height: 10px;
+      width: 10px;
       @include box-shadow(0 0 0 2px #ffffff);
     }
 
-    .current{
+    .current {
       background-color: #ff7c15;
     }
 
   }
 }
 
-
-
 //////service
 
-.spacing{
-  position:relative;
-  margin-left:30px;
+.spacing {
+  position: relative;
+  margin-left: 30px;
 
-  li{
+  li {
     list-style: circle;
   }
 }
 
-$gutter-width:20;
-$column-width:20;
-.service-information{
+$gutter-width: 20;
+$column-width: 20;
+.service-information {
   @include row(100);
 
-  .row{
+  .row {
     @include row(100);
-    padding-bottom:10px;
+    padding-bottom: 10px;
   }
 
-  .information{
-    @include column(40,100);
+  .information {
+    @include column(40, 100);
     @include push(5);
     box-sizing: border-box;
   }
 
-  .information:nth-of-type(2n){
+  .information:nth-of-type(2n) {
     @include push(10);
+  }
+}
+
+//////////////////////  Contact ///////////////////////////
+
+
+.contact-image{
+  @include row(100);
+}
+
+.clean-form {
+  @include column(100);
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 100%;
+  overflow:visible;
+
+
+
+  .left, .right {
+    height: 300px;
+    input, textarea {
+      background-color: white;
+      display: block;
+      padding: 15px;
+      margin-bottom: 45px;
+      @include border-radius(5px);
+      border: 2px solid #d1d1d1;
+      width: 90%;
+      @include transition-property(border, width);
+      @include transition-duration(500ms);
+      color:gray;
+    }
+
+    input[type="submit"]{
+      border: 0;
+      width:100%;
+      @include box-shadow(inset 0 0 2px #5a5a5a);
+      @include transition-property(box-shadow);
+      @include transition-duration(1s);
+      border: 0px solid #d1d1d1;
+    }
+
+    input[type="submit"]:hover{
+      @include box-shadow(inset 0px 0px 2px #5a5a5a);
+    }
+
+
+
+    input:last-of-type {
+      margin-bottom: 0;
+    }
+    textarea {
+      width: 100%;
+      height: 100%;
+    }
+
+    input:focus {
+      outline: none;
+      border: 2px solid #759dff;
+    }
+  }
+
+  .left {
+    @include column(40, 100);
+    @include push(5);
+    margin-top:28px;
+
+  }
+
+  .right {
+    @include column(40, 100);
+    label{
+      color: #b3b3b3;
+    }
   }
 }

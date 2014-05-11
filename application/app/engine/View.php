@@ -11,7 +11,7 @@ class View {
     protected $name;
     protected $vars;
     function __construct($name){
-        $vars=[];
+        $vars=array();
         $this->name=$name;
     }
 
