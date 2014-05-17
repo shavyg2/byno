@@ -2,7 +2,7 @@
 <?php
   ob_start();
   if(!isset($renderstack)){
-    $renderstack=array();
+    $renderstack=[];
   }
   array_push($renderstack,new stdClass());
 
@@ -10,7 +10,7 @@
   if(!isset($last)){
     $last=null;
   }
-  $last=&$renderstack[count($renderstack)-1];
+  $last=$renderstack[count($renderstack)-1];
   if(isset($last) && !isset($last->parent)){
     $last->parent=null;
   }
@@ -18,23 +18,32 @@
     $last->parent=ob_get_clean();
   endif;
   if(isset($last) &&!isset($last->section)):
-  $last->sections=array();
+  $last->sections=[];
   endif;
 ?>
 
 <?php ob_start();?>
-<div class="page-title"><h1>Contact Us</h1></div>
+<div class="page-title">
+    <h1>
 
-        <div class="contact-image">
-            <img src="<?php echo assets("image/gta-map.png") ?>" alt=""/>
-        </div>
+        <p>
+        </p>Contact Us
+    </h1>
+</div>
+
+<div class="contact-image">
+    <img src="<?php echo assets("image/gta-map.png") ?>" alt=""/>
+</div>
 <form class="clean-form" action="">
 
-    <!--<p>When you need responsive plumbing service, to discuss a project, &nbsp;or to request a quote please contact Byno Mechanical Plumbing Heating Ltd.&nbsp;</p>-->
-    <!--<p>Tel: 905 882 4574</p>-->
-    <!--<p>Fax: 905 886 9278</p>-->
-    <!--<p>Cell: 416 402 8881</p>-->
-    <!--<p>Email: <a href="mailto:byno@rogers.com">byno@rogers.com</a></p>-->
+    <p>When you need responsive service, to discuss a project, &nbsp;or to request a quote please contact us using any format below. &nbsp;</p>
+
+
+    <ul class="tel-list">
+        <li>Tel: 905 882 4574</li>
+        <li>Fax: 905 886 9278</li>
+        <li>Cell: 416 402 8881</li>
+    </ul>
 
 
     <section class="left">
@@ -56,7 +65,7 @@
 ?>
 <?php
 if(isset($renderstack) && count($renderstack)>0){
-   $last=&array_pop($renderstack);
+   $last=array_pop($renderstack);
    if(isset($last->sections)):
      foreach($last->sections as $key=>$value){
        if(isset($last) && isset($last->parent)):

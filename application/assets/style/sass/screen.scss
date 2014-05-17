@@ -24,6 +24,18 @@ body {
   margin: auto;
 }
 
+p{
+  text-indent: 0;
+}
+
+.center{
+  text-align:center;
+}
+
+.top-space{
+  margin-top:20px !important;
+}
+
 .wrapper {
   text-align: left;
   @include column(100);
@@ -71,6 +83,10 @@ body {
 }
 
 ///////Home Page
+
+h1,h2{
+  color: #101085;
+}
 
 .page-title {
   margin-top: 50px;
@@ -125,7 +141,7 @@ body {
 }
 
 .item {
-  $icon-size: 200px;
+  $icon-size: 100px;
   @include column(50, 100);
   //  height:$icon-size;
   text-align: center;
@@ -175,7 +191,8 @@ body {
 
 .quote-banner {
   @include column(100);
-  margin-top: 10px;
+  margin-top: 50px;
+  margin-bottom:50px;
 
   .big-quote {
     &:before {
@@ -185,8 +202,6 @@ body {
 
     @include column(60);
     @include push(20);
-    margin-top: 50px;
-    margin-bottom: 50px;
 
     &:after {
       content: "\201D";
@@ -267,6 +282,13 @@ $column-width: 20;
 
 //////////////////////  Contact ///////////////////////////
 
+
+.tel-list{
+  margin-left:25px;
+  li{
+    list-style: none;
+  }
+}
 
 .contact-image{
   @include row(100);
