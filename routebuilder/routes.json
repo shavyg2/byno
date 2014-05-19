@@ -23,6 +23,12 @@
             "controller":"MainController",
             "method":"serviceArea",
             "url":"/serviceArea"
+        },
+        {
+            "name":"sendmail",
+            "controller":"MailController",
+            "method":"receive",
+            "url":"/send"
         }
     ]
 }

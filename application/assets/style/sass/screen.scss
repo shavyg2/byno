@@ -73,7 +73,7 @@ p{
 
     li {
       text-align: center;
-      @include column(20, 80);
+      @include column(25, 80);
       a {
         text-decoration: none;
         color: #0f0f0f;

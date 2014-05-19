@@ -14,10 +14,9 @@
 <div class="contact-image">
     <img src="{{asset*image/gta-map.png*}}" alt=""/>
 </div>
-<form class="clean-form" action="">
+<form class="clean-form" action="/send" method="post">
 
     <p>When you need responsive service, to discuss a project, &nbsp;or to request a quote please contact us using any format below. &nbsp;</p>
-
 
     <ul class="tel-list">
         <li>Tel: 905 882 4574</li>
@@ -27,9 +26,9 @@
 
 
     <section class="left">
-        <input type="text" placeholder="Name"/>
-        <input type="email" placeholder="Email"/>
-        <input type="tel" placeholder="Tel"/>
+        <input name="name" type="text" placeholder="Name" required/>
+        <input name="email" type="email" placeholder="Email" required/>
+        <input name="tel" type="tel" placeholder="Tel"/>
         <input type="submit"/>
     </section>
 
