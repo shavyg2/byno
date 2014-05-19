@@ -42,9 +42,11 @@
 
 
 <div class="quote-banner">
-    <p class="big-quote">Byno Mechanical Plumbing/ Heating has been serving the GTA and surrounding area since 1982. We are a full service company ready to take your call.
+
+
+    <p class="big-quote">Byno Mechanical Plumbing Heating Ltd. has been serving the GTA and surrounding area since 1982. We are a full service company: Licensed, Insured and WSIB compliant.<br>
+    <h4 class="big-quote center top-space"> <strong> </strong> We are just a call away</h4>
     </p>
-    <h4 class="big-quote center top-space"> <strong>24/7 365 </strong> We are just a call away</h4>
 </div>
 
 

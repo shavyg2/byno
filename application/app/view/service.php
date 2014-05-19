@@ -74,48 +74,48 @@
 <div class="service-information">
     <div class="row">
         <div class="information">
-            <h5>Plumbing Services</h5>
+         <strong><h5> Plumbing Services</h5></strong>
 <?php include('plumbing-service.php') ?>
         </div>
 
         <div class="information">
-            <h5>Gas Appliance Installation</h5>
+            <strong><h5>Gas Appliance Installation</h5></strong>
 <?php include('gas-appliance-installation.php') ?>
         </div>
     </div>
 
     <div class="row">
         <div class="information last">
-            <h5>CCTV Drain/Video Inspection</h5>
+            <strong><h5>CCTV Drain/Video Inspection</h5></strong>
 <?php include('cctv-drain-video-inspection.php') ?>
         </div>
 
         <div class="information">
-            <h5>Air Condition Repair & Installation</h5>
+           <strong><h5>Air Condition Repair & Installation</h5></strong>
 <?php include('air-condition-repair-installation.php') ?>
         </div>
     </div>
 
     <div class="row">
         <div class="information">
-            <h5>Furnace Repair & Installation</h5>
+            <strong><h5>Furnace Repair & Installation</h5></strong>
 <?php include('furnace-repair-installation.php') ?>
         </div>
 
         <div class="information">
-            <h5>Sprinkler System</h5>
+            <strong><h5>Sprinkler System</h5></strong>
 <?php include('sprinkler-system.php') ?>
         </div>
     </div>
 
     <div class="row">
         <div class="information">
-            <h5>Propress</h5>
+            <strong><h5>Propress</h5></strong>
 <?php include('propress-machine.php') ?>
         </div>
 
         <div class="information">
-            <h5>Backflow Preventor</h5>
+            <strong><h5>Backflow Preventor</h5></strong>
 <?php include('backflow-preventor.php') ?>
         </div>
     </div>
