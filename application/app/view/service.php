@@ -2,7 +2,7 @@
 <?php
   ob_start();
   if(!isset($renderstack)){
-    $renderstack=array();
+    $renderstack=[];
   }
   array_push($renderstack,new stdClass());
 
@@ -10,7 +10,7 @@
   if(!isset($last)){
     $last=null;
   }
-  $last=&$renderstack[count($renderstack)-1];
+  $last=$renderstack[count($renderstack)-1];
   if(isset($last) && !isset($last->parent)){
     $last->parent=null;
   }
@@ -18,7 +18,7 @@
     $last->parent=ob_get_clean();
   endif;
   if(isset($last) &&!isset($last->section)):
-  $last->sections=array();
+  $last->sections=[];
   endif;
 ?>
 
@@ -74,7 +74,7 @@
 <div class="service-information">
     <div class="row">
         <div class="information">
-         <strong><h5> Plumbing Services</h5></strong>
+            <strong><h5> Plumbing Services</h5></strong>
 <?php include('plumbing-service.php') ?>
         </div>
 
@@ -91,7 +91,7 @@
         </div>
 
         <div class="information">
-           <strong><h5>Air Condition Repair & Installation</h5></strong>
+            <strong><h5>Air Condition Repair & Installation</h5></strong>
 <?php include('air-condition-repair-installation.php') ?>
         </div>
     </div>
@@ -120,30 +120,13 @@
         </div>
     </div>
 </div>
-
-<!--<h1>Service Area</h1>-->
-<!--<div class="image-map">-->
-<!--<div class="map-section" id="peel"></div>-->
-<!--<div class="map-section" id="durham"></div>-->
-<!--<div class="map-section" id="halton"></div>-->
-<!--<div class="map-section" id="toronto"></div>-->
-<!--<div class="map-section" id="york"></div>-->
-<!--</div>-->
-
-<!--<div class="map-labels">-->
-<!--<div class="region" id="toronto">Toronto</div>-->
-<!--<div class="region" id="york">York</div>-->
-<!--<div class="region" id="durham">Durham</div>-->
-<!--<div class="region" id="halton">Halton</div>-->
-<!--<div class="region" id="peel">Peel</div>-->
-<!--</div>-->
 <?php
   $section_buffer=ob_get_clean();
   $last->sections['page']=$section_buffer
 ?>
 <?php
 if(isset($renderstack) && count($renderstack)>0){
-   $last=&array_pop($renderstack);
+   $last=array_pop($renderstack);
    if(isset($last->sections)):
      foreach($last->sections as $key=>$value){
        if(isset($last) && isset($last->parent)):
