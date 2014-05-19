@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-US">
 <head>
+    <meta charset="UTF-8">
 <link rel="stylesheet" href="../application/assets/style/stylesheets/screen.css"/>
     <link rel="stylesheet" href="../application/assets/style/stylesheets/ie.css"/>
     <link rel="stylesheet" href="../application/assets/style/stylesheets/print.css"/>
@@ -18,34 +19,53 @@
     </head>
 <body>
 
+
+
 <div class="navigation">
     <nav>
         <ul>
             <li><a href="/ ">Home</a></li>
                 <li><a href="service.html">Service</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="backflow-preventor">Backflow Preventor</a></li>
-        </ul>
+            </ul>
     </nav>
 </div>
 <div class="wrapper">
     <div class="main-page">
-<div class="hundo">
-    <p>Whether you need responsive plumbing service, to discuss a project, &nbsp;or to request a quote please contact Byno Mechanical Plumbing Heating Ltd.&nbsp;</p>
-    <p>Tel: 905 882 4574</p>
-    <p>Fax: 905 886 9278</p>
-    <p>Cell: 416 402 8881</p>
-    <p>Email: <a href="mailto:byno@rogers.com">byno@rogers.com</a></p>
-    <p>Office Hours:</p>
-    <p>Monday - Fridays</p>
-    <p>8:00 a.m. to 8:00 p.m.</p>
-    <p>Weekend and outside office hours: Call 416 402 8881</p>
-    <p>A service technician is available 24/7</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+<div class="page-title">
+    <h1>
+
+        <p>
+        </p>Contact Us
+    </h1>
 </div>
+
+<div class="contact-image">
+    <img src="../application/assets/image/gta-map.png" alt=""/>
+    </div>
+<form class="clean-form" action="/send" method="post">
+
+    <p>When you need responsive service, to discuss a project, &nbsp;or to request a quote please contact us using any format below. &nbsp;</p>
+
+    <ul class="tel-list">
+        <li>Tel: 905 882 4574</li>
+        <li>Fax: 905 886 9278</li>
+        <li>Cell: 416 402 8881</li>
+    </ul>
+
+
+    <section class="left">
+        <input name="name" type="text" placeholder="Name" required/>
+        <input name="email" type="email" placeholder="Email" required/>
+        <input name="tel" type="tel" placeholder="Tel"/>
+        <input type="submit"/>
+    </section>
+
+    <section class="right">
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+    </section>
+</form>
 
     </div>
 </div>
