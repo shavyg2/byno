@@ -2,7 +2,7 @@
 <?php
   ob_start();
   if(!isset($renderstack)){
-    $renderstack=[];
+    $renderstack=array();
   }
   array_push($renderstack,new stdClass());
 
@@ -10,7 +10,7 @@
   if(!isset($last)){
     $last=null;
   }
-  $last=$renderstack[count($renderstack)-1];
+  $last=&$renderstack[count($renderstack)-1];
   if(isset($last) && !isset($last->parent)){
     $last->parent=null;
   }
@@ -18,7 +18,7 @@
     $last->parent=ob_get_clean();
   endif;
   if(isset($last) &&!isset($last->section)):
-  $last->sections=[];
+  $last->sections=array();
   endif;
 ?>
 
@@ -34,10 +34,9 @@
 <div class="contact-image">
     <img src="<?php echo assets("image/gta-map.png") ?>" alt=""/>
 </div>
-<form class="clean-form" action="">
+<form class="clean-form" action="/send" method="post">
 
     <p>When you need responsive service, to discuss a project, &nbsp;or to request a quote please contact us using any format below. &nbsp;</p>
-
 
     <ul class="tel-list">
         <li>Tel: 905 882 4574</li>
@@ -47,9 +46,9 @@
 
 
     <section class="left">
-        <input type="text" placeholder="Name"/>
-        <input type="email" placeholder="Email"/>
-        <input type="tel" placeholder="Tel"/>
+        <input name="name" type="text" placeholder="Name" required/>
+        <input name="email" type="email" placeholder="Email" required/>
+        <input name="tel" type="tel" placeholder="Tel"/>
         <input type="submit"/>
     </section>
 
@@ -65,7 +64,7 @@
 ?>
 <?php
 if(isset($renderstack) && count($renderstack)>0){
-   $last=array_pop($renderstack);
+   $last=&array_pop($renderstack);
    if(isset($last->sections)):
      foreach($last->sections as $key=>$value){
        if(isset($last) && isset($last->parent)):

@@ -27,6 +27,13 @@
       "method": "serviceArea",
       "url": "/serviceArea",
       "match": "/serviceArea"
+    },
+    {
+      "name": "sendmail",
+      "controller": "MailController",
+      "method": "receive",
+      "url": "/send",
+      "match": "/send"
     }
   ]
 }
