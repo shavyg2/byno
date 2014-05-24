@@ -40,12 +40,10 @@
 <!--</div>-->
 <?php include('slider.php') ?>
 
-
 <div class="quote-banner">
-
-
-    <p class="big-quote">Byno Mechanical Plumbing Heating Ltd. has been serving the GTA and surrounding area since 1982. We are a full service company: Licensed, Insured and WSIB compliant.<br>
-    <h4 class="big-quote center top-space"> <strong> </strong> We are just a call away</h4>
+    <p class="big-quote">Byno Mechanical Plumbing Heating Ltd. has been serving the GTA and surrounding area since 1982.
+        We are a full service company: Licensed, Insured and WSIB compliant.
+    <h4 class="big-quote center top-space"><strong> </strong> Operating 24/7, we are just a call away</h4>
     </p>
 </div>
 

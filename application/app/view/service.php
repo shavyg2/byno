@@ -91,14 +91,14 @@
         </div>
 
         <div class="information">
-            <strong><h5>Air Condition Repair & Installation</h5></strong>
+            <strong><h5>Air Condition: Sales, Service & Installation</h5></strong>
 <?php include('air-condition-repair-installation.php') ?>
         </div>
     </div>
 
     <div class="row">
         <div class="information">
-            <strong><h5>Furnace Repair & Installation</h5></strong>
+            <strong><h5>Furnace: Sales, Service & Installation</h5></strong>
 <?php include('furnace-repair-installation.php') ?>
         </div>
 
