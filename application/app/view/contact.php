@@ -2,7 +2,7 @@
 <?php
   ob_start();
   if(!isset($renderstack)){
-    $renderstack=[];
+    $renderstack=array();
   }
   array_push($renderstack,new stdClass());
 
@@ -10,7 +10,7 @@
   if(!isset($last)){
     $last=null;
   }
-  $last=$renderstack[count($renderstack)-1];
+  $last=&$renderstack[count($renderstack)-1];
   if(isset($last) && !isset($last->parent)){
     $last->parent=null;
   }
@@ -18,7 +18,7 @@
     $last->parent=ob_get_clean();
   endif;
   if(isset($last) &&!isset($last->section)):
-  $last->sections=[];
+  $last->sections=array();
   endif;
 ?>
 
@@ -64,7 +64,7 @@
 ?>
 <?php
 if(isset($renderstack) && count($renderstack)>0){
-   $last=array_pop($renderstack);
+   $last=&array_pop($renderstack);
    if(isset($last->sections)):
      foreach($last->sections as $key=>$value){
        if(isset($last) && isset($last->parent)):
